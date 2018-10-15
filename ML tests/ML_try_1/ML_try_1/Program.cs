@@ -10,6 +10,8 @@ namespace ML_try_1
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("123");
+            Console.ReadKey();
         }
     }
 }
