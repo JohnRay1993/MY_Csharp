@@ -186,15 +186,19 @@ namespace Fractals
                 {
                     this.Text = count++.ToString();
                     i = r.Next(1, 5);
-                    //multiplicator = 100;// r.Next(1, 11);
-                    /*if (multiplicator < 11)
-                        multiplicator = 50;
-                    else
-                        multiplicator -= 10;*/
-                    int q = 1;
-                    multiplicator = r.Next(q, r.Next(q, r.Next(q, r.Next(q, 51))));
+                //multiplicator = 100;// r.Next(1, 11);
+                /*if (multiplicator < 11)
+                    multiplicator = 50;
+                else
+                    multiplicator -= 10;*/
+                //int q = 1;
+                //multiplicator = r.Next(q, r.Next(q, r.Next(q, r.Next(q, 51))));
+                if (multiplicator < 11)
+                    multiplicator = 1;
+                else
+                    multiplicator = 1;
 
-                    if (i == 1)
+                if (i == 1)
                     {
                         t.x += (a.x - t.x) / multiplicator;
                         t.y += (a.y - t.y) / multiplicator;
