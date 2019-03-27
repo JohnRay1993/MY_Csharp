@@ -256,3 +256,4 @@ namespace Fractals
                     t.y += (d.y - t.y) / multiplicator;
                 }
 */
+//123йцуфывячс
